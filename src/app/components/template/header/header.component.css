@@ -1,13 +1,39 @@
-.header{
-    display: flex;
-    align-items: center;
-}
 
-.header a {
+.searchInput{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.searchInput:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.header{
+    background-color: white;
     display: flex;
-    align-items: center;
-    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+    max-height: 5%;
+}
+.box1{
+    flex:1;
+    display: flex;
+    margin-right: auto; 
+    justify-content: left;
+}
+.box2{
+    flex:1;
+    display: flex;
+    justify-content: center;
+
+}
+.box3{
+    flex:1;
+    display: flex;
+    margin-left: auto; 
+    justify-content: right;
 }
 .header .logo{
+    max-height: fit-content;
     max-height: 32px;
 }
