@@ -37,3 +37,7 @@
     max-height: fit-content;
     max-height: 32px;
 }
+.lupa{
+    vertical-align: bottom;
+    color:black;
+}
